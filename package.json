@@ -2,10 +2,10 @@
   "name": "renamesongs",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node dist/app.js",
-    "start:dev": "nodemon dist/app.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "tsc": "tsc",
     "watch-ts": "tsc --watch --preserveWatchOutput"
   },
