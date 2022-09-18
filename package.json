@@ -1,0 +1,25 @@
+{
+  "name": "renamesongs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "start:dev": "nodemon dist/app.js",
+    "tsc": "tsc",
+    "watch-ts": "tsc --watch --preserveWatchOutput"
+  },
+  "keywords": [
+    "rename-songs",
+    "auto-rename-songs"
+  ],
+  "author": "Saurav Ghimire",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.18",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
